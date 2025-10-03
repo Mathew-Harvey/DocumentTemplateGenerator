@@ -1,0 +1,90 @@
+.table-field {
+  width: 100%;
+}
+
+.table-container {
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 0.375rem;
+  margin-bottom: 0.5rem;
+}
+
+.dynamic-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.dynamic-table th,
+.dynamic-table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+  text-align: left;
+}
+
+.dynamic-table th {
+  background-color: var(--bg-color);
+  font-weight: 600;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.dynamic-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.dynamic-table tbody tr:hover {
+  background-color: var(--bg-color);
+}
+
+.table-input,
+.table-select,
+.table-textarea {
+  width: 100%;
+  padding: 0.375rem;
+  font-size: 0.875rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+  background-color: white;
+}
+
+.table-input:focus,
+.table-select:focus,
+.table-textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.table-textarea {
+  resize: vertical;
+  min-height: 50px;
+}
+
+.btn-icon {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.2s;
+}
+
+.btn-danger-icon {
+  color: var(--danger-color);
+}
+
+.btn-danger-icon:hover {
+  background-color: var(--danger-color);
+  color: white;
+}
+
+.required {
+  color: var(--danger-color);
+  margin-left: 0.25rem;
+}
+

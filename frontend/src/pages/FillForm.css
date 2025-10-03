@@ -1,0 +1,13 @@
+.fill-form-page {
+  min-height: 100vh;
+}
+
+.form-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form-header {
+  margin-bottom: 1.5rem;
+}
+
